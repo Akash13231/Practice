@@ -1,0 +1,22 @@
+2024-09-03 14:50:18,109 : DEBUG : Pytest.test_logging : debug message
+2024-09-03 14:50:18,110 : INFO : Pytest.test_logging : info message
+2024-09-03 14:50:18,111 : WARNING : Pytest.test_logging : warning message
+2024-09-03 14:50:18,112 : ERROR : Pytest.test_logging : error message
+2024-09-03 14:50:18,113 : CRITICAL : Pytest.test_logging : critical message
+2024-09-03 14:55:12,382 : DEBUG : Pytest.test_logging : debug message
+2024-09-03 14:55:12,383 : INFO : Pytest.test_logging : info message
+2024-09-03 14:55:12,383 : WARNING : Pytest.test_logging : warning message
+2024-09-03 14:55:12,383 : ERROR : Pytest.test_logging : error message
+2024-09-03 14:55:12,383 : CRITICAL : Pytest.test_logging : critical message
+2024-09-03 15:00:30,508 : INFO : test_editProfile : Akash
+2024-09-03 15:00:30,509 : INFO : test_editProfile : AkashBhosage.com
+2024-09-03 15:00:30,512 : DEBUG : Pytest.test_logging : debug message
+2024-09-03 15:00:30,512 : INFO : Pytest.test_logging : info message
+2024-09-03 15:00:30,512 : WARNING : Pytest.test_logging : warning message
+2024-09-03 15:00:30,512 : ERROR : Pytest.test_logging : error message
+2024-09-03 15:00:30,512 : CRITICAL : Pytest.test_logging : critical message
+2024-09-04 15:20:46,669 : DEBUG : Pytest.test_logging : debug message
+2024-09-04 15:20:46,670 : INFO : Pytest.test_logging : info message
+2024-09-04 15:20:46,670 : WARNING : Pytest.test_logging : warning message
+2024-09-04 15:20:46,670 : ERROR : Pytest.test_logging : error message
+2024-09-04 15:20:46,670 : CRITICAL : Pytest.test_logging : critical message
