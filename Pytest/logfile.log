@@ -20,3 +20,8 @@
 2024-09-04 15:20:46,670 : WARNING : Pytest.test_logging : warning message
 2024-09-04 15:20:46,670 : ERROR : Pytest.test_logging : error message
 2024-09-04 15:20:46,670 : CRITICAL : Pytest.test_logging : critical message
+2024-09-16 16:36:33,668 : DEBUG : Pytest.test_logging : debug message
+2024-09-16 16:36:33,669 : INFO : Pytest.test_logging : info message
+2024-09-16 16:36:33,669 : WARNING : Pytest.test_logging : warning message
+2024-09-16 16:36:33,669 : ERROR : Pytest.test_logging : error message
+2024-09-16 16:36:33,670 : CRITICAL : Pytest.test_logging : critical message

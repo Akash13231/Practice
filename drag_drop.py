@@ -25,11 +25,9 @@ target = driver.find_element(By.ID, 'droparea')
 
 action = ActionChains(driver)
 action.drag_and_drop(element1, target).perform()
-time.sleep(3)
 action.drag_and_drop(element2, target).perform()
-time.sleep(3)
 action.drag_and_drop(element3, target).perform()
-time.sleep(3)
+
 
 print('done')
 
