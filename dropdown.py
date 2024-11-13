@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
 
-# driver = webdriver.Chrome()
+driver = webdriver.Chrome()
 
 
 #Static dropdown
@@ -18,9 +18,9 @@ from selenium.webdriver.common.by import By
 
 
 #dynamic dropdoen
-chrome_obj = Service("C:/Users/abhosage/OneDrive - Capgemini/Desktop/drivers/chromedriver-win64 (1)/chromedriver-win64/chromedriver.exe")
+# chrome_obj = Service("C:/Users/abhosage/OneDrive - Capgemini/Desktop/drivers/chromedriver-win64 (1)/chromedriver-win64/chromedriver.exe")
 
-driver = webdriver.Chrome(service= chrome_obj)
+# driver = webdriver.Chrome(service= chrome_obj)
 driver.get('https://www.google.co.uk/')
 time.sleep(3)
 driver.find_element(By.ID, "APjFqb").send_keys('ind')

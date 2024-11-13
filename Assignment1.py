@@ -5,8 +5,8 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-chrome_obj = Service("C:/Users/abhosage/OneDrive - Capgemini/Desktop/drivers/chromedriver-win64/chromedriver.exe")
-driver = webdriver.Chrome(service=chrome_obj)
+#chrome_obj = Service("C:/Users/abhosage/OneDrive - Capgemini/Desktop/drivers/chromedriver-win64/chromedriver.exe")
+driver = webdriver.Chrome()
 driver.implicitly_wait(10)
 driver.get('https://rahulshettyacademy.com/loginpagePractise/')
 
@@ -25,12 +25,12 @@ driver.find_element(By.NAME, 'password').send_keys('learning')
 
 radio = driver.find_elements(By.CSS_SELECTOR, '.customradio')
 radio[1].click()
-time.sleep(4)
-alert_msg = driver.switch_to.alert
-alert_msg.accept()
-
-driver.find_element(By.ID, 'terms').click()
-driver.find_element(By.ID, 'signInBtn').click()
-time.sleep(5)
+# time.sleep(4)
+# alert_msg = driver.switch_to.alert
+# alert_msg.accept()
+#
+# driver.find_element(By.ID, 'terms').click()
+# driver.find_element(By.ID, 'signInBtn').click()
+# time.sleep(5)
 
 print('all done')
