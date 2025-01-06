@@ -139,7 +139,7 @@ print('hello world')
 
 
 
-
+#PALINDROM#
 # num = int(input("enter : "))
 # rev_num = int(str(num)[::-1])
 # if num == rev_num:
