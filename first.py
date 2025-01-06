@@ -6,7 +6,7 @@ from selenium.webdriver.common.devtools.v85.log import stop_violations_report
 from setuptools.command.build_ext import if_dl
 
 print('hello world')
-
+#STAR PTERNS#
 # for i in range(1, 15):
 #     if i == 10:
 #         break
